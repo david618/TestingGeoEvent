@@ -1,0 +1,23 @@
+@(avgLatency: String)(stdLatency: String)(minLatency: String)(maxLatency: String)(inputRate: String)(outputRate: String)
+
+
+<html>
+    <head>
+        <title>Messages</title>
+    </head>
+    <body>
+        <table>
+            <tbody>
+                <tr><th>Parameter</th><th>Value</th></tr>
+                <tr><td>Average Latency (ms)</td><td>@avgLatency</td></tr>
+                <tr><td>Std. Dev Latency (ms)</td><td>@stdLatency</td></tr>
+                <tr><td>Minimum Latency (ms)</td><td>@minLatency</td></tr>
+                <tr><td>Maximum Latency (ms)</td><td>@maxLatency</td></tr>
+                <tr><td>Average Input Rate</td><td>@inputRate</td></tr>
+                <tr><td>Average Output Rate</td><td>@outputRate</td></tr>
+
+            </tbody>
+        </table>
+
+    </body>
+</html>
